@@ -37,15 +37,31 @@ int main(){
 	for (int i = 0; i < 3; i++)
 		cout << ptr[i] << ' ';
 	cout << endl;
-	*/
 	
-	//fourth test :
+	
+	//fourth test :    (re5em gedn)
+
 	int** arr = new int* [50];
 	for (int i = 0; i < 50; i++)
 		arr[i] = new int[20];
 	arr[5][10] = 500;
 	cout << arr[5][10] << endl;
+	
 
+	//fifth test :           (delete pointer)
+	int* ptr = new int;
+	*ptr = 10;
+	cout << *ptr << endl;
+
+	delete ptr;
+
+	cout << *ptr;
+	cout << "abdalalh" << endl;
+
+	//ok ;
+
+	*/ 
+	
 
 
 	
