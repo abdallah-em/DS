@@ -1,11 +1,15 @@
 ﻿#include <iostream>
-#include"Node.h"
+#include"LinkedList.h"
 using namespace std;
 
 int main(){
-	
-	Node node(5);
-	cout << node.value;
+
+	LinkedList list;
+	list.append(5);
+	list.append(7);
+	list.append(9);
+	list.print();
+
 
      return 0;
 }
