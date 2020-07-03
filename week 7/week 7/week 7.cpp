@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-	
-    //first test:    (Address)
+	/*
+	//first test:    (Address)
 
 	int x;
 	x = 1993;
@@ -37,6 +37,19 @@ int main(){
 	for (int i = 0; i < 3; i++)
 		cout << ptr[i] << ' ';
 	cout << endl;
+	*/
+	
+	//fourth test :
+	int** arr = new int* [50];
+	for (int i = 0; i < 50; i++)
+		arr[i] = new int[20];
+	arr[5][10] = 500;
+	cout << arr[5][10] << endl;
+
+
+
+	
+
 
 
 	return 0;
