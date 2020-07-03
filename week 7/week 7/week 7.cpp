@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	/*
+	
     //first test:    (Address)
 
 	int x;
@@ -18,7 +18,7 @@ int main(){
 	cout << *arr<<' ';
 	cout << *(arr + 1)<<' ';
 	cout << *(arr + 2)<<' ';
-	*/
+	
 
 	//third test :        (direct poinetr)
 
