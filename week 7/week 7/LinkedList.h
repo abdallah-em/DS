@@ -1,5 +1,6 @@
 #pragma once
 #include"Node.h"
+#include<assert.h>
 #include<iostream>
 using namespace std;
 
@@ -11,6 +12,7 @@ private:
 
 public:
 	void append(int val);
+	void insert(int idx , int val);
 	void print();
 
 	LinkedList();

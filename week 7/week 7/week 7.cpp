@@ -8,6 +8,7 @@ int main(){
 	list.append(5);
 	list.append(7);
 	list.append(9);
+	list.insert(3 , 11);
 	list.print();
 
 
