@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	/*
+	
 	//first test:    (Address)
 
 	int x;
@@ -10,6 +10,7 @@ int main(){
 	int* ptr;
 	ptr = &x;
 	cout << *ptr << endl;
+	
   
 
 	//second test pointer :    (arr = pointer)
@@ -18,6 +19,7 @@ int main(){
 	cout << *arr<<' ';
 	cout << *(arr + 1)<<' ';
 	cout << *(arr + 2)<<' ';
+
 	
 
 	//third test :        (direct poinetr)
@@ -60,13 +62,7 @@ int main(){
 
 	//ok ;
 
-	*/ 
-	
+      
 
-
-	
-
-
-
-	return 0;
+     return 0;
 }
