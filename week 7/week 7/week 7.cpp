@@ -9,6 +9,7 @@ int main(){
 	list.append(7);
 	list.append(9);
 	list.insert(3 , 11);
+	list.removeAt(2);
 	list.print();
 
 
